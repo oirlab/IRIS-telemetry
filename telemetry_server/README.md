@@ -14,7 +14,7 @@ It is multithreaded, it opens a thread for each of the telemetry keys and writes
 
 This runs for 10 seconds and creates output files in `out/`
 
-Get values with the sample client:
+Get values with the sample client, also the sample client is multithreaded, it opens a thread for each key and executes them together:
 
     $ python sample_client.py WFS5FR WFS4GAIN WFS4GAIN
     Current time: 2018-10-01 12:25:47.985080
